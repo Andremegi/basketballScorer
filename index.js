@@ -1,8 +1,8 @@
 let pointsHome = document.getElementById("points_home")
-let pointGuest = document.getElementById("points_guest")
+let pointsGuest = document.getElementById("points_guest")
 
 let count = 0
-let countg =0
+let countg = 0
 
 pointsHome.innerText=count
 pointsGuest.innerText=countg
