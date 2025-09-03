@@ -1,0 +1,53 @@
+body {
+    margin: 0%;
+}
+.team{
+    color: white;
+    font-family:Verdana;
+    font-size:65px;
+    text-align: center;
+    margin:0;
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding:2%;
+    margin:5%;
+    max-height: 500px;
+}
+
+.score{
+    background-color: black;
+    color:#F94F6D;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    text-align: center;
+    margin: 0%;
+
+}
+.buttons{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    gap:10px;
+    font-family: Verdana;
+}
+.buttons button {
+    border: 2px solid black;
+}
+#newgame{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom:10%;    
+}
+#newgame button {
+    background-color: #F94F6D;
+    border: 5px solid #1B244A;
+    font-style: Verdana;
+    font-size: 50px;
+    color:white;
+}
