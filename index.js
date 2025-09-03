@@ -25,17 +25,17 @@ function plus3(){
 }
 function plus1g(){
     countg +=1
-    pointsGuest.innerText=count
+    pointsGuest.innerText=countg
 
 }
 function plus2g(){
     countg +=2
-    pointsGuest.innerText=count
+    pointsGuest.innerText=countg
 
 }
 function plus3g(){
     countg +=3
-    pointsGuest.innerText=count
+    pointsGuest.innerText=countg
 
 }
 function newgame(){
@@ -43,5 +43,5 @@ function newgame(){
     pointsHome.innerText=count
 
     countg =0
-    pointsGuest.innerText=count
+    pointsGuest.innerText=countg
 }
